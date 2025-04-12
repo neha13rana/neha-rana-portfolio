@@ -17,21 +17,21 @@ const Experience = () => {
       role: "AI Intern",
       period: "January 2025 - Ongoing",
       description: "Working on the AI Tool Development for the application of Energy and Power Sector of India.",
-      location: "Remote",
+      location: "On-site (Bangalore)",
     },
     {
       company: "Project for Education Department-Government of Gujarat",
       role: "Team Lead, Developer",
       period: "January 2024 - Ongoing",
       description: "Developed multilingual chatbot using LangChain, Open LLM with Tesseract OCR document processing, built cross-platform solution (React web app + Android) with JWT authentication.",
-      location: "Gujarat, India",
+      location: "Remote",
     },
     {
       company: "iShape Technolab Pvt. Ltd.",
       role: "Web Development Intern",
       period: "June 2024 - July 2024",
       description: "Developed a real-time chat application with PHP, featuring user-friendly design, secure authentication, and robust password protection to ensure privacy.",
-      location: "Remote",
+      location: "On-site (Ahmedabad)",
     }
   ];
 
