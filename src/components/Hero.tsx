@@ -49,9 +49,7 @@ const Hero = () => {
             </div>
             
             <div className="flex flex-wrap gap-4">
-              <Button className="bg-portfolio-lightPurple hover:bg-portfolio-purple">
-                <a href="#" target="_blank" rel="noopener noreferrer">Download Resume</a>
-              </Button>
+ 
               <Button variant="outline" className="border-portfolio-purple text-portfolio-purple hover:bg-portfolio-purple/10">
                 <a href="#projects">View Projects</a>
               </Button>
