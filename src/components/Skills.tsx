@@ -14,7 +14,7 @@ const Skills = () => {
     {
       title: "Technologies",
       icon: <Server className="text-portfolio-purple" />,
-      skills: ["Machine Learning", "Generative AI", "NLP", "Deep Learning"]
+      skills: ["Machine Learning", "Generative AI", "NLP", "Deep Learning" , "LLM"]
     },
     {
       title: "Frameworks",
