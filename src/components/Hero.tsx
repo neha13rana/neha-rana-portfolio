@@ -2,6 +2,8 @@
 import React from 'react';
 import { Button } from '@/components/ui/button';
 import { Github, Linkedin, Mail, ChevronDown } from 'lucide-react';
+import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar';
+import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 
 const Hero = () => {
   return (
@@ -58,15 +60,23 @@ const Hero = () => {
           
           <div className="md:w-1/2 flex justify-center md:justify-end">
             <div className="relative">
-              <div className="rounded-full bg-gradient-to-br from-portfolio-lightPurple to-portfolio-purple p-1 animate-fade-in">
-                <div className="bg-white rounded-full p-2">
-                  <img 
-                    src="/lovable-uploads/c37617e3-046b-434e-9b8d-3f500ee2f5ba.png" 
-                    alt="Neha Rana" 
-                    className="w-64 h-64 md:w-80 md:h-80 object-cover rounded-full"
-                  />
-                </div>
-              </div>
+              <Tabs defaultValue="profile" className="w-full">
+                <TabsList className="mb-4 mx-auto flex justify-center">
+                  <TabsTrigger value="profile" className="rounded-full px-6">Profile</TabsTrigger>
+                </TabsList>
+                <TabsContent value="profile" className="mt-0 flex justify-center">
+                  <div className="rounded-full bg-gradient-to-br from-portfolio-lightPurple to-portfolio-purple p-1 animate-fade-in">
+                    <Avatar className="w-64 h-64 md:w-80 md:h-80 rounded-full">
+                      <AvatarImage 
+                        src="/lovable-uploads/d831f8c5-7489-46ed-b149-263a60d050ec.png" 
+                        alt="Neha Rana" 
+                        className="object-cover"
+                      />
+                      <AvatarFallback className="text-4xl bg-portfolio-purple text-white">NR</AvatarFallback>
+                    </Avatar>
+                  </div>
+                </TabsContent>
+              </Tabs>
               <div className="absolute -bottom-4 -right-4 bg-white p-3 rounded-full shadow-lg">
                 <span className="text-2xl">👩‍💻</span>
               </div>
