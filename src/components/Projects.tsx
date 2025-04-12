@@ -20,7 +20,6 @@ const Projects = () => {
       skills: ["Python", "Django", "Web Development", "NLP", "Authentication"],
       image: "https://placehold.co/600x400?text=University+Chatbot",
       github: "https://github.com/neha13rana/University-Chatbot-_NIH-project",
-      demo: "#",
     },
     {
       title: "Multimind Chatbot",
@@ -28,7 +27,7 @@ const Projects = () => {
       skills: ["Python", "Langchain", "Streamlit", "Prompt Engineering", "LLM"],
       image: "https://placehold.co/600x400?text=Multimind+Chatbot",
       github: "https://github.com/neha13rana/Multimindbot",
-      demo: "#",
+      demo: "https://huggingface.co/spaces/Neha13/Multimindbot",
     },
     {
       title: "Cloth Recommendation System",
@@ -36,7 +35,6 @@ const Projects = () => {
       skills: ["Data mining", "Recommender Systems", "NLP", "ML"],
       image: "https://placehold.co/600x400?text=Recommender+System",
       github: "https://github.com/neha13rana/Cloth-Recommendation-System",
-      demo: "#",
     },
     {
       title: "AI Content Detector",
@@ -44,7 +42,7 @@ const Projects = () => {
       skills: ["Streamlit", "Natural Language Processing", "Machine Learning"],
       image: "https://placehold.co/600x400?text=AI+Content+Detector",
       github: "https://github.com/neha13rana/AI-Content-Detector",
-      demo: "#",
+      demo: "https://huggingface.co/spaces/Neha13/AI_Content_Detector",
     },
     {
       title: "Student Counselling Chatbot",
@@ -52,7 +50,30 @@ const Projects = () => {
       skills: ["Python", "NLP", "Machine Learning", "Chatbot"],
       image: "https://placehold.co/600x400?text=Student+Counselling",
       github: "https://github.com/neha13rana/Student_Counselling_Chatbot",
-      demo: "#",
+      demo: "https://huggingface.co/spaces/Neha13/Student_Counselling_Bot",
+    },
+      {
+      title: "LL1, SLR1 - Parser Application",
+      description: "This is a user-friendly LL(1) and SLR(1) Parser Visualizer built using Python and Streamlit. The applications allow users to input context-free grammars, generate parsing tables, and simulate parsing of input strings with detailed visual feedback — perfect for students and educators in compiler design and automata theory.",
+      skills: ["Python", "Streamlit", "Pandas", "Compiler Construction"],
+      image: "https://placehold.co/600x400?text=Parser+Application",
+      github: "https://github.com/neha13rana/Parser-LL1-SLR1-Application",
+      demo1: "https://huggingface.co/spaces/Neha13/cc1",
+      demo2: "https://huggingface.co/spaces/Neha13/CC",
+    },
+      {
+      title: "Stereotypical Bias Analyzer",
+      description: "This study investigates stereotypical bias in pre-trained language models, which often reflect societal biases due to training on large-scale real-world data. We introduce a novel, comprehensive dataset merging four existing sources to assess bias across ten domains including race, gender, and religion. By evaluating models like BERT and RoBERTa, we reveal their susceptibility to stereotypical bias, underscoring the importance of mitigating such biases in NLP applications.",
+      skills: ["Python", "NLP", "ML/DL", "Flask", "Data Engineering", "Transformers & Hugging Face"],
+      image: "https://placehold.co/600x400?text=Bias+Analyzer",
+      github: "https://github.com/neha13rana/Stereotypical-Bias-Analyzer",
+    },
+      {
+      title: "Feedback processor",
+      description: "Pulpy-Juices is a web application developed with the Django framework. Its primary purpose is twofold: to gather feedback from real customers about the various products, and to present the juice company manager with an analysis of the feedback received from all clients. The analysis is displayed in various graphs to aid comprehension.",
+      skills: ["Python", "Data Analysis", "Django" , "HTML" , "CSS"],
+      image: "https://placehold.co/600x400?text=Feedback+Processor",
+      github: "https://github.com/neha13rana/feedback-processor",
     }
   ];
 
