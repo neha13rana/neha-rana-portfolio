@@ -1,73 +1,49 @@
-# Welcome to your Lovable project
+# Neha Rana - Portfolio Website
 
-## Project info
+A modern, responsive, and beautifully designed personal portfolio to showcase my skills, projects, and experience.
 
-**URL**: https://lovable.dev/projects/eb4e8f2a-c576-4854-b6e2-c7baf5cb8436
+## 🌐 Live Site
 
-## How can I edit this code?
+👉 [Visit Portfolio](https://neha-rana-portfolio.lovable.app/)
 
-There are several ways of editing your application.
+## ✨ Features
 
-**Use Lovable**
+- ✨ Sleek and minimal user interface  
+- 🧠 About Me section with personal and professional intro  
+- 💼 Highlighted projects with live demos and source code  
+- 🧰 Tech stack & skills display  
+- 📞 Contact section with social links  
+- 📱 Fully responsive on all devices  
+- ⚡ Built for performance and quick loading  
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/eb4e8f2a-c576-4854-b6e2-c7baf5cb8436) and start prompting.
+## 🛠️ Tech Stack
 
-Changes made via Lovable will be committed automatically to this repo.
+- **Frontend Framework**: [React](https://reactjs.org/)  
+- **Language**: [TypeScript](https://www.typescriptlang.org/)  
+- **Build Tool**: [Vite](https://vitejs.dev/)  
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)  
+- **UI Components**: [shadcn/ui](https://ui.shadcn.dev/)  
 
-**Use your preferred IDE**
+## 🚀 Getting Started
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+To run the project locally, follow these steps:
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Prerequisites
 
-Follow these steps:
+- Node.js & npm installed (recommended: Node.js ≥ 16)
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### Installation
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+```bash
+# Clone the repository
+git clone https://github.com/neha13rana/neha-rana-portfolio.git
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Navigate into the project directory
+cd neha-rana-portfolio
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Install dependencies
+npm install
+
+# Run the development server
 npm run dev
-```
 
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/eb4e8f2a-c576-4854-b6e2-c7baf5cb8436) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes it is!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
