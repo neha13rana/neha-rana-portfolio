@@ -34,7 +34,7 @@ const Footer = () => {
           
           <div className="flex items-center gap-6">
             <a 
-              href="https://www.linkedin.com/in/neha-rana-ba0212248/" 
+              href="https://www.linkedin.com/in/neha-rana-ba9212248/" 
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-portfolio-lightPurple transition-colors"
@@ -42,7 +42,7 @@ const Footer = () => {
               LinkedIn
             </a>
             <a 
-              href="https://github.com/nehaa3"
+              href="https://github.com/neha13rana"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-portfolio-lightPurple transition-colors"
@@ -50,7 +50,7 @@ const Footer = () => {
               GitHub
             </a>
             <a 
-              href="mailto:rananehaa77@gmail.com"
+              href="mailto:rananeha572@gmail.com"
               className="hover:text-portfolio-lightPurple transition-colors"
             >
               Email
