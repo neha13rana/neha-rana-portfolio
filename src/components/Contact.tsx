@@ -37,7 +37,7 @@ const Contact = () => {
             <ContactInfo 
               icon={Phone} 
               title="Phone" 
-              content="+91 9099235150" 
+              content="+91 9638235150" 
             />
             
             <ContactInfo 
