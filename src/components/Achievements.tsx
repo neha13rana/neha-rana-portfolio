@@ -38,13 +38,18 @@ const Achievements = () => {
       description: "Selected among top teams nationwide"
     },
     {
+      icon: Medal,
+      title: "All India Women Only Hackathon’23",
+      description: "Selected among top teams nationwide"
+    },
+    {
       icon: FileText,
       title: "Project Selected by Education Dept, Govt. of Gujarat",
       description: "For integration with their official website"
     },
     {
       icon: Medal,
-      title: "Online National Level Mixer Hackathon",
+      title: "Online National Level Mined Hackathon",
       description: "Certificate of Participation"
     },
     {
@@ -54,7 +59,7 @@ const Achievements = () => {
     },
     {
       icon: FileText,
-      title: "Software Engineering Virtual Experience Program",
+      title: "Software Engineering Virtual Experience Program by Goldman Sachs",
       description: "Certificate of Completion"
     },
     {
@@ -69,7 +74,7 @@ const Achievements = () => {
     },
     {
       icon: FileText,
-      title: "Essentials of Data Science from Infosys",
+      title: "Python for Data Science from Infosys",
       description: "Course Certificate"
     }
   ];
