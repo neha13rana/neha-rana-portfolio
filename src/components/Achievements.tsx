@@ -7,7 +7,7 @@ import {
   CardHeader, 
   CardTitle 
 } from '@/components/ui/card';
-import { Award, Medal, Certificate } from 'lucide-react';
+import { Award, Medal, FileText } from 'lucide-react';
 
 const AchievementCard = ({ icon: Icon, title, description }) => (
   <Card className="hover:shadow-md transition-shadow">
@@ -29,18 +29,18 @@ const Achievements = () => {
   const achievements = [
     {
       icon: Award,
-      title: "Highest CodeForces Rank - 2705",
-      description: "CodeForcesRound Div2"
+      title: "400+ Codeforces Problems Solved",
+      description: "Continuous practice for enhancing DSA skills"
     },
     {
       icon: Medal,
-      title: "All India Vibrant Hackathon'23",
-      description: "Certificate of Participation"
+      title: "SSIP New India Vibrant Hackathon'23 Finalist",
+      description: "Selected among top teams nationwide"
     },
     {
-      icon: Certificate,
-      title: "AI Enable Vision Quiz Hackathon",
-      description: "Certificate of Participation"
+      icon: FileText,
+      title: "Project Selected by Education Dept, Govt. of Gujarat",
+      description: "For integration with their official website"
     },
     {
       icon: Medal,
@@ -48,27 +48,27 @@ const Achievements = () => {
       description: "Certificate of Participation"
     },
     {
-      icon: Certificate,
+      icon: FileText,
       title: "Foundations of User Experience (UX) Design",
       description: "Course Certificate from Google"
     },
     {
-      icon: Certificate,
+      icon: FileText,
       title: "Software Engineering Virtual Experience Program",
       description: "Certificate of Completion"
     },
     {
-      icon: Certificate,
+      icon: FileText,
       title: "Advanced Learning Algorithms by DeepLearning.AI",
       description: "Course Certificate from Coursera"
     },
     {
-      icon: Certificate,
+      icon: FileText,
       title: "Unsupervised Learning, Recommenders, Reinforcement Learning",
       description: "Course Certificate from Coursera"
     },
     {
-      icon: Certificate,
+      icon: FileText,
       title: "Essentials of Data Science from Infosys",
       description: "Course Certificate"
     }

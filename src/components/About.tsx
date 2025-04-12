@@ -12,13 +12,16 @@ const About = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mt-10">
           <div className="animate-fade-in-up">
             <p className="text-gray-700 mb-6">
-              I am a Computer Science graduate from Nirma University with a CGPA of 7.37. My academic journey has equipped me with strong foundations in various programming languages and technologies, with a particular focus on AI and Machine Learning.
+              I am Neha Rana, a final year student at the Institute of Technology, Nirma University, majoring in Computer Science and Engineering. I am passionate about developing technology and am always eager to solve real-world problems by combining knowledge and innovation.
             </p>
             <p className="text-gray-700 mb-6">
-              Beyond technical skills, I pride myself on problem-solving abilities, leadership qualities, and effective communication. I've worked on diverse projects ranging from chatbots to recommendation systems, always aiming to create impactful solutions.
+              Currently, I am working at REConnect Energy as an AI Intern. Here, my work involves developing AI tools for the energy and Power Sector of India.
+            </p>
+            <p className="text-gray-700 mb-6">
+              Throughout my academic journey, I have actively participated in various hackathons and coding competitions. This has not only enhanced my technical knowledge but also boosted my team management and leadership skills. The highlight of it includes becoming finalist in SSIP New India Vibrant Hackathon'23, Our project selection for merging with the website of Education Department, Government of Gujarat.
             </p>
             <p className="text-gray-700">
-              Currently, I'm working on AI tool development for the Energy and Power sector at Reconnect Energy Solutions Limited, while continuously expanding my knowledge in emerging technologies.
+              To strengthen my DSA and problem-solving skills, I have been practicing problems on Codeforces with over 400+ problems solved till now. In my free time, I enjoy diary journaling, reading, photography, and painting.
             </p>
           </div>
           
@@ -42,7 +45,7 @@ const About = () => {
                 </div>
                 <div>
                   <h3 className="font-bold text-lg mb-1">Experience</h3>
-                  <p className="text-gray-600">AI Intern at Reconnect Energy Solutions Limited</p>
+                  <p className="text-gray-600">AI Intern at REConnect Energy Solutions</p>
                   <p className="text-gray-600">Web Development at iShape Technolab</p>
                 </div>
               </CardContent>
@@ -55,8 +58,8 @@ const About = () => {
                 </div>
                 <div>
                   <h3 className="font-bold text-lg mb-1">Achievements</h3>
-                  <p className="text-gray-600">Highest CodeForces Rank - 2705</p>
-                  <p className="text-gray-600">Hackathon winner & certificates in multiple domains</p>
+                  <p className="text-gray-600">400+ Codeforces problems solved</p>
+                  <p className="text-gray-600">Finalist in SSIP New India Vibrant Hackathon'23</p>
                 </div>
               </CardContent>
             </Card>
