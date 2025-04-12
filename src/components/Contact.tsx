@@ -31,7 +31,7 @@ const Contact = () => {
             <ContactInfo 
               icon={Mail} 
               title="Email" 
-              content="rananehaa77@gmail.com" 
+              content="rananeha572@gmail.com" 
             />
             
             <ContactInfo 
