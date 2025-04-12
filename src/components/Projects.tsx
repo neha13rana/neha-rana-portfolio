@@ -19,7 +19,7 @@ const Projects = () => {
       description: "A chatbot that resolves student queries related to Nirma University. Made with Django and NLP, it includes an authentication system for safe login and signup with email confirmation.",
       skills: ["Python", "Django", "Web Development", "NLP", "Authentication"],
       image: "https://placehold.co/600x400?text=University+Chatbot",
-      github: "#",
+      github: "https://github.com/neha13rana/University-Chatbot-_NIH-project",
       demo: "#",
     },
     {
@@ -27,7 +27,7 @@ const Projects = () => {
       description: "A chatbot that answers user queries on uploaded PDFs, images, or simple text-based questions. Made with Python, Langchain, and Streamlit, it leverages LLM and prompt engineering.",
       skills: ["Python", "Langchain", "Streamlit", "Prompt Engineering", "LLM"],
       image: "https://placehold.co/600x400?text=Multimind+Chatbot",
-      github: "#",
+      github: "https://github.com/neha13rana/Multimindbot",
       demo: "#",
     },
     {
@@ -35,7 +35,7 @@ const Projects = () => {
       description: "Built a cloth recommendation system using content filtering, generating tags with Word2Vec, optimizing with sparse cosine similarity, and creating a practical matrix with reduced latent overhead.",
       skills: ["Data mining", "Recommender Systems", "NLP", "ML"],
       image: "https://placehold.co/600x400?text=Recommender+System",
-      github: "#",
+      github: "https://github.com/neha13rana/Cloth-Recommendation-System",
       demo: "#",
     },
     {
@@ -43,7 +43,15 @@ const Projects = () => {
       description: "A tool to detect AI content in text using Streamlit, NLP, and Machine Learning. 95% accuracy was achieved using CountVectorizer, TFIDF-Transformer, and multinomial Naive Bayes.",
       skills: ["Streamlit", "Natural Language Processing", "Machine Learning"],
       image: "https://placehold.co/600x400?text=AI+Content+Detector",
-      github: "#",
+      github: "https://github.com/neha13rana/AI-Content-Detector",
+      demo: "#",
+    },
+    {
+      title: "Student Counselling Chatbot",
+      description: "A chatbot designed to assist students with counselling needs and academic guidance.",
+      skills: ["Python", "NLP", "Machine Learning", "Chatbot"],
+      image: "https://placehold.co/600x400?text=Student+Counselling",
+      github: "https://github.com/neha13rana/Student_Counselling_Chatbot",
       demo: "#",
     }
   ];
@@ -78,12 +86,16 @@ const Projects = () => {
               </CardContent>
               <CardFooter className="flex justify-between">
                 <Button variant="outline" size="sm" className="gap-2">
-                  <Github size={16} />
-                  <span>GitHub</span>
+                  <a href={project.github} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
+                    <Github size={16} />
+                    <span>GitHub</span>
+                  </a>
                 </Button>
                 <Button size="sm" className="bg-portfolio-lightPurple hover:bg-portfolio-purple gap-2">
-                  <ExternalLink size={16} />
-                  <span>Live Demo</span>
+                  <a href={project.demo} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
+                    <ExternalLink size={16} />
+                    <span>Live Demo</span>
+                  </a>
                 </Button>
               </CardFooter>
             </Card>

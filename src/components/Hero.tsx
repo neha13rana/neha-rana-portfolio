@@ -33,7 +33,7 @@ const Hero = () => {
                 <Linkedin size={20} />
               </a>
               <a 
-                href="https://github.com/nehaa3" 
+                href="https://github.com/neha13rana" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="p-3 bg-gray-100 hover:bg-gray-200 rounded-full text-gray-700 transition-colors"
@@ -50,7 +50,7 @@ const Hero = () => {
             
             <div className="flex flex-wrap gap-4">
               <Button className="bg-portfolio-lightPurple hover:bg-portfolio-purple">
-                Download Resume
+                <a href="#" target="_blank" rel="noopener noreferrer">Download Resume</a>
               </Button>
               <Button variant="outline" className="border-portfolio-purple text-portfolio-purple hover:bg-portfolio-purple/10">
                 <a href="#projects">View Projects</a>
