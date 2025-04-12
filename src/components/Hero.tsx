@@ -25,7 +25,7 @@ const Hero = () => {
             
             <div className="flex gap-4 mb-8">
               <a 
-                href="https://www.linkedin.com/in/neha-rana-ba0212248/" 
+                href="https://www.linkedin.com/in/neha-rana-ba9212248/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="p-3 bg-gray-100 hover:bg-gray-200 rounded-full text-gray-700 transition-colors"
@@ -41,7 +41,7 @@ const Hero = () => {
                 <Github size={20} />
               </a>
               <a 
-                href="mailto:rananehaa77@gmail.com"
+                href="mailto:rananeha572@gmail.com"
                 className="p-3 bg-gray-100 hover:bg-gray-200 rounded-full text-gray-700 transition-colors"
               >
                 <Mail size={20} />
