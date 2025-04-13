@@ -19,7 +19,7 @@ const Hero = () => {
               Software Engineer & AI Developer
             </h2>
             <p className="text-gray-600 mb-8 text-lg max-w-lg">
-              Computer Science graduate from Nirma University with expertise in AI, Machine Learning, and Full Stack Development.
+              Computer Science graduate from Nirma University with expertise in AI, Machine Learning, Coding.
               Passionate about solving complex problems and creating innovative solutions.
             </p>
             
