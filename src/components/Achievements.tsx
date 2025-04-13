@@ -34,61 +34,61 @@ const Achievements = () => {
       icon: Award,
       title: "400+ Codeforces Problems Solved",
       description: "Continuous practice for enhancing DSA skills",
-      link: "https://codeforces.com/profile/neha13rana"
+      link: "https://codeforces.com/profile/Neha.Rana"
     },
     {
       icon: Medal,
       title: "SSIP New India Vibrant Hackathon'23 Finalist",
       description: "Selected among top teams nationwide",
-      link: "https://example.com/ssip-certificate"
+      link: "https://drive.google.com/file/d/1n_mZvirhuSnGwDlDgkjxdWh-6XTDZB2x/view?pli=1"
     },
     {
       icon: Medal,
       title: "All India Women Only Hackathon’23",
       description: "Selected among top teams nationwide",
-      link: "https://example.com/women-hackathon-certificate"
+      link: "https://drive.google.com/file/d/15vD6vIozT94LRdsnD7FwYnDXVs-PRgGj/view"
     },
     {
       icon: FileText,
       title: "Project Selected by Education Dept, Govt. of Gujarat",
       description: "For integration with their official website",
-      link: "https://example.com/gujarat-project-cert"
+      link: "https://drive.google.com/file/d/1n_mZvirhuSnGwDlDgkjxdWh-6XTDZB2x/view?pli=1"
     },
     {
       icon: Medal,
       title: "Online National Level Mined Hackathon",
       description: "Certificate of Participation",
-      link: "https://example.com/mined-hackathon-certificate"
+      link: "https://drive.google.com/file/d/1xCdaGwuJN_UtR4bvU4dSbnN5-twU8JWu/view"
     },
     {
       icon: FileText,
       title: "Foundations of User Experience (UX) Design",
       description: "Course Certificate from Google",
-      link: "https://coursera.org/verify/google-ux-cert-id"
+      link: "https://drive.google.com/file/d/1CfRWjQmQJ9DOZo64i-46ND8dUCEU6Jeu/view"
     },
     {
       icon: FileText,
       title: "Software Engineering Virtual Experience Program by Goldman Sachs",
       description: "Certificate of Completion",
-      link: "https://example.com/goldman-sachs-certificate"
+      link: "https://drive.google.com/file/d/1tN1DtS-75Tou3qi2tIwiJ_kmStOPgaBD/view"
     },
     {
       icon: FileText,
       title: "Advanced Learning Algorithms by DeepLearning.AI",
       description: "Course Certificate from Coursera",
-      link: "https://coursera.org/verify/advanced-learning-cert-id"
+      link: "https://drive.google.com/file/d/1LvGBDYXpyNmxIju5H4wWaCeoccO9ZG1K/view"
     },
     {
       icon: FileText,
       title: "Unsupervised Learning, Recommenders, Reinforcement Learning",
       description: "Course Certificate from Coursera",
-      link: "https://coursera.org/verify/unsupervised-cert-id"
+      link: "https://drive.google.com/file/d/11OhQxj4iZKu3iS3e3xM6DDO70kOeufa5/view"
     },
     {
       icon: FileText,
       title: "Python for Data Science from Infosys",
       description: "Course Certificate",
-      link: "https://example.com/infosys-python-cert"
+      link: "https://drive.google.com/file/d/1VKIArfI1XpQ2yl3SYqi48tzF63eymW4_/view"
     }
   ];
 
