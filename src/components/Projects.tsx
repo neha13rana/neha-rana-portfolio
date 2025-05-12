@@ -1,17 +1,5 @@
 
-// import React from 'react';
-// import { 
-//   Card, 
-//   CardContent, 
-//   CardDescription, 
-//   CardFooter,  
-//   CardHeader, 
-//   CardTitle 
-// } from '@/components/ui/card';
-// import { Badge } from '@/components/ui/badge';
-// import { Button } from '@/components/ui/button';
-// import { Github, ExternalLink } from 'lucide-react';
-import React, { useState } from 'react';
+import React from 'react';
 import { 
   Card, 
   CardContent, 
@@ -23,16 +11,28 @@ import {
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { Github, ExternalLink } from 'lucide-react';
+// import React, { useState } from 'react';
+// import { 
+//   Card, 
+//   CardContent, 
+//   CardDescription, 
+//   CardFooter,  
+//   CardHeader, 
+//   CardTitle 
+// } from '@/components/ui/card';
+// import { Badge } from '@/components/ui/badge';
+// import { Button } from '@/components/ui/button';
+// import { Github, ExternalLink } from 'lucide-react';
 
-const Projects = () => {
-  const [expandedDescriptions, setExpandedDescriptions] = useState({});
+// const Projects = () => {
+//   const [expandedDescriptions, setExpandedDescriptions] = useState({});
 
-  const toggleDescription = (index) => {
-    setExpandedDescriptions((prevState) => ({
-      ...prevState,
-      [index]: !prevState[index]
-    }));
-  };
+//   const toggleDescription = (index) => {
+//     setExpandedDescriptions((prevState) => ({
+//       ...prevState,
+//       [index]: !prevState[index]
+//     }));
+//   };
 
 const Projects = () => {
   const projects = [
@@ -107,57 +107,6 @@ const Projects = () => {
     
   ];
 
-//   return (
-//     <section id="projects" className="py-20">
-//       <div className="section-container">
-//         <h2 className="section-title">Projects</h2>
-        
-//         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-10">
-//           {projects.map((project, index) => (
-//             <Card key={index} className="overflow-hidden hover:shadow-lg transition-shadow animate-fade-in-up" style={{animationDelay: `${index * 0.1}s`}}>
-//               <div className="h-48 overflow-hidden bg-gray-100">
-//                 <img 
-//                   src={project.image} 
-//                   alt={project.title}
-//                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
-//                 />
-//               </div>
-//               <CardHeader>
-//                 <CardTitle className="text-xl font-bold">{project.title}</CardTitle>
-//                 <CardDescription className="line-clamp-2">{project.description}</CardDescription>
-//               </CardHeader>
-//               <CardContent>
-//                 <div className="flex flex-wrap gap-2 mb-4">
-//                   {project.skills.map((skill, skillIndex) => (
-//                     <Badge key={skillIndex} variant="secondary" className="bg-gray-100">
-//                       {skill}
-//                     </Badge>
-//                   ))}
-//                 </div>
-//               </CardContent>
-//               <CardFooter className="flex justify-between">
-//                 <Button variant="outline" size="sm" className="gap-2">
-//                   <a href={project.github} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
-//                     <Github size={16} />
-//                     <span>GitHub</span>
-//                   </a>
-//                 </Button>
-//                 <Button size="sm" className="bg-portfolio-lightPurple hover:bg-portfolio-purple gap-2">
-//                   <a href={project.demo} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
-//                     <ExternalLink size={16} />
-//                     <span>Live Demo</span>
-//                   </a>
-//                 </Button>
-//               </CardFooter>
-//             </Card>
-//           ))}
-//         </div>
-//       </div>
-//     </section>
-//   );
-// };
-
-// export default Projects;
   return (
     <section id="projects" className="py-20">
       <div className="section-container">
@@ -175,16 +124,7 @@ const Projects = () => {
               </div>
               <CardHeader>
                 <CardTitle className="text-xl font-bold">{project.title}</CardTitle>
-                <CardDescription>
-                  {expandedDescriptions[index]
-                    ? project.description
-                    : `${project.description.substring(0, 100)}...`}
-                  <button 
-                    onClick={() => toggleDescription(index)} 
-                    className="text-blue-500 ml-2">
-                    {expandedDescriptions[index] ? 'Show Less' : 'Show More'}
-                  </button>
-                </CardDescription>
+                <CardDescription className="line-clamp-2">{project.description}</CardDescription>
               </CardHeader>
               <CardContent>
                 <div className="flex flex-wrap gap-2 mb-4">
@@ -202,14 +142,12 @@ const Projects = () => {
                     <span>GitHub</span>
                   </a>
                 </Button>
-                {project.demo && (
-                  <Button size="sm" className="bg-portfolio-lightPurple hover:bg-portfolio-purple gap-2">
-                    <a href={project.demo} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
-                      <ExternalLink size={16} />
-                      <span>Live Demo</span>
-                    </a>
-                  </Button>
-                )}
+                <Button size="sm" className="bg-portfolio-lightPurple hover:bg-portfolio-purple gap-2">
+                  <a href={project.demo} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
+                    <ExternalLink size={16} />
+                    <span>Live Demo</span>
+                  </a>
+                </Button>
               </CardFooter>
             </Card>
           ))}
@@ -220,3 +158,4 @@ const Projects = () => {
 };
 
 export default Projects;
+
