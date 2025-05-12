@@ -74,7 +74,29 @@ const Projects = () => {
       skills: ["Python", "Data Analysis", "Django" , "HTML" , "CSS"],
       image: "https://placehold.co/600x400?text=Feedback+Processor",
       github: "https://github.com/neha13rana/feedback-processor",
+    },
+    {
+      title: "Multilingual FAQ Management System with Django",
+      description: "This project provides a robust solution for managing FAQs in multiple languages with a user-friendly interface. It includes advanced features such as WYSIWYG editor support, API endpoints for multilingual operations, caching for improved performance, and a well-documented workflow for deployment and testing.",
+      skills: [
+  "Python",
+  "Django",
+  "REST API Development",
+  "Multilingual Support",
+  "WYSIWYG Editors (django-ckeditor)",
+  "Redis Caching",
+  "Google Translate API Integration",
+  "Docker & Containerization",
+  "Unit Testing (pytest)",
+  "PEP8 Compliance",
+  "Version Control with Git",
+  "Deployment (Heroku/AWS)",
+  "Documentation Writing"
+]
+      image: "https://placehold.co/600x400?text=FAQ+Management+System",
+      github: "https://github.com/neha13rana/multilingual-faq-management-system-with-django",
     }
+    
   ];
 
   return (
