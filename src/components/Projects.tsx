@@ -250,8 +250,7 @@ const Projects = () => {
         "Python", "Django", "REST API Development", "Multilingual Support",
         "WYSIWYG Editors (django-ckeditor)", "Redis Caching", "Google Translate API Integration",
         "Docker & Containerization", "Unit Testing (pytest)", "PEP8 Compliance",
-        "Version Control with Git", "Deployment (Heroku/AWS)", "Documentation Writing"
-      ],
+        "Version Control with Git"],
       image: "https://placehold.co/600x400?text=FAQ+Management+System",
       github: "https://github.com/neha13rana/multilingual-faq-management-system-with-django",
     }
