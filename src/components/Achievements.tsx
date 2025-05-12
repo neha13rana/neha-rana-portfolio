@@ -89,6 +89,12 @@ const Achievements = () => {
       title: "Python for Data Science from Infosys",
       description: "Course Certificate",
       link: "https://drive.google.com/file/d/1VKIArfI1XpQ2yl3SYqi48tzF63eymW4_/view"
+    },
+    {
+      icon: FileText,
+      title: "Github Foundation",
+      description: "Certification exam",
+      link: "https://www.credly.com/go/CnW65Sdm"
     }
   ];
 
