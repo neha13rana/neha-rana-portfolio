@@ -226,8 +226,8 @@ const Projects = () => {
       skills: ["Python", "Streamlit", "Pandas", "Compiler Construction"],
       image: "https://placehold.co/600x400?text=Parser+Application",
       github: "https://github.com/neha13rana/Parser-LL1-SLR1-Application",
-      demo1: "https://huggingface.co/spaces/Neha13/cc1",
-      demo2: "https://huggingface.co/spaces/Neha13/CC",
+      demo: "https://huggingface.co/spaces/Neha13/cc1",
+      demo: "https://huggingface.co/spaces/Neha13/CC",
     },
     {
       title: "Stereotypical Bias Analyzer",
