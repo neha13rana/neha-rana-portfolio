@@ -246,14 +246,18 @@ const Projects = () => {
     {
       title: "Multilingual FAQ Management System with Django",
       description: "This project provides a robust solution for managing FAQs in multiple languages with a user-friendly interface. It includes advanced features such as WYSIWYG editor support, API endpoints for multilingual operations, caching for improved performance, and a well-documented workflow for deployment and testing.",
-      skills: [
-        "Python", "Django", "REST API Development", "Multilingual Support",
-        "WYSIWYG Editors (django-ckeditor)", "Redis Caching", "Google Translate API Integration",
-        "Docker & Containerization", "Unit Testing (pytest)", "PEP8 Compliance",
-        "Version Control with Git"],
+      skills: ["Python", "Django", "REST API Development", "Redis Caching", "Google Translate API Integration", "Unit Testing (pytest)","Version Control with Git"],
       image: "https://placehold.co/600x400?text=FAQ+Management+System",
       github: "https://github.com/neha13rana/multilingual-faq-management-system-with-django",
-    }
+    },
+    {
+      title: "Document Processing System",
+      description: "The Document Processing System is a Python-based project designed to process PDF documents by detecting layout elements, extracting text, and generating structured outputs. It is tailored for use cases such as invoice processing, research paper analysis, and document digitization.",
+      skills: ["Python", "OCR (Tesseract)","YOLO Object Detection","OpenCV","Image Processing and Annotation", "Data Structuring and JSON Handling"],
+      image: "https://placehold.co/600x400?text=Document+Processing+System",
+      github: "https://github.com/neha13rana/Document-Processing-System",
+      // demo: "https://huggingface.co/spaces/Neha13/Multimindbot",
+    },
   ];
 
   return (
