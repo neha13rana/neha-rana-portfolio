@@ -32,9 +32,12 @@ const Achievements = () => {
   const achievements = [
     {
       icon: Award,
-      title: "400+ Codeforces Problems Solved",
-      description: "Continuous practice for enhancing DSA skills",
+      title: "Highest rank 2705 in DIV2 codeforces",
+      description: "Continuous practice for enhancing DSA & coding skills",
       link: "https://codeforces.com/profile/Neha.Rana"
+    },
+    {
+      
     },
     {
       icon: Medal,
@@ -95,13 +98,26 @@ const Achievements = () => {
       title: "Github Foundation",
       description: "Certification exam",
       link: "https://www.credly.com/go/CnW65Sdm"
+    },
+    {
+      icon: Medal,
+      title: "Google Cloud",
+      description: "Skill Boost",
+      link: "https://www.cloudskillsboost.google/public_profiles/7c622c86-c668-461b-a946-6cba77321976"
+    },
+    {
+      icon: Award,
+      title: "ICPC Asia Kanpur Preliminary 2024",
+      description: "Participated in the International Collegiate Programming Contest (ICPC) is the largest computer programming contest in the world. ",
+      link: "https://drive.google.com/file/d/1QBC0k3wCJAirT7OgpdqjwvGTZwhLDrAV/view"
+      
     }
   ];
 
   return (
     <section id="achievements" className="py-20 bg-gray-50">
       <div className="section-container">
-        <h2 className="section-title">Achievements</h2>
+        <h2 className="section-title">Achievements & Certifications</h2>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-10">
           {achievements.map((achievement, index) => (
