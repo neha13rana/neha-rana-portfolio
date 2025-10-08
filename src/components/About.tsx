@@ -12,17 +12,16 @@ const About = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mt-10">
           <div className="animate-fade-in-up">
             <p className="text-gray-700 mb-6">
-              I am Neha Rana, a final year student at the Institute of Technology, Nirma University, majoring in Computer Science and Engineering. I am passionate about developing technology and am always eager to solve real-world problems by combining knowledge and innovation.
+              I am Neha Rana, a Computer Science and Engineering graduate from the Institute of Technology, Nirma University, with the expertise in AI/ML, software development and problem-solving. I aim to leverage technology and innovation to build impactful, efficient, and scalable solutions for real-world challenges.
             </p>
             <p className="text-gray-700 mb-6">
-              Currently, I am working at REConnect Energy as an AI Intern. Here, my work involves developing AI tools for the energy and Power Sector of India.
+              Recently, I completed my internship at REConnect Energy, where I worked as an AI Intern. My role involved developing AI tools tailored for the Energy and Power Sector of India.
             </p>
             <p className="text-gray-700 mb-6">
-              Throughout my academic journey, I have actively participated in various hackathons and coding competitions. This has not only enhanced my technical knowledge but also boosted my team management and leadership skills. The highlight of it includes becoming finalist in SSIP New India Vibrant Hackathon'23, Our project selection for merging with the website of Education Department, Government of Gujarat.
+              Throughout my academic and professional journey, I have actively participated in hackathons, coding competitions, and collaborative projects, strengthening both my technical and leadership abilities. Notably, I was a finalist in the SSIP New India Vibrant Hackathon 2023 and my project was selected by the Education Department, Government of Gujarat for integration with their official website.
             </p>
             <p className="text-gray-700">
-              To strengthen my DSA and problem-solving skills, I have been practicing problems on Codeforces with over 400+ problems solved till now. In my free time, I enjoy diary journaling, reading, photography, and painting.
-            </p>
+              I am also a Google Cloud Facilitator ’25, a participant in the McKinsey Forward Program ’25 and actively learning and collaborating with startups through Y Combinator Startup School, exploring how AI and entrepreneurship can come together to drive meaningful innovation.            </p>
           </div>
           
           <div className="grid grid-cols-1 gap-6">
@@ -58,8 +57,13 @@ const About = () => {
                 </div>
                 <div>
                   <h3 className="font-bold text-lg mb-1">Achievements</h3>
-                  <p className="text-gray-600">400+ Codeforces problems solved</p>
+                  <p className="text-gray-600">Codeforces Highest rank 2705 in Div2</p>
                   <p className="text-gray-600">Finalist in SSIP New India Vibrant Hackathon'23</p>
+                  <p className="text-gray-600">McKinsey Forward Program ’25</p>
+                  <p className="text-gray-600">Google Cloud Facilitator ’25</p>
+                  <p className="text-gray-600">Y Combinator Startup School ’25</p>
+                  <p className="text-gray-600">Top 1% Class XII Board Examination'21 (Qualified for INSPIRE Scholarship (SHE), Govt. of India)</p>
+                  
                 </div>
               </CardContent>
             </Card>
