@@ -42,7 +42,7 @@ const Contact = () => {
             <ContactInfo 
               icon={MapPin} 
               title="Location" 
-              content="Bangalore, Karnataka , India" 
+              content="Ahmedabad, Gujarat, India" 
             />
             
             <div className="mt-10">
