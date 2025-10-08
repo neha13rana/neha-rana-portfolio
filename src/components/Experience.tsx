@@ -15,22 +15,22 @@ const Experience = () => {
     {
       company: "Reconnect Energy Solutions Limited",
       role: "AI Intern",
-      period: "January 2025 - Ongoing",
-      description: "Working on the AI Tool Development for the application of Energy and Power Sector of India.",
+      period: "January 2025 - May 2025",
+      description: "Worked on AI powered tools (chatbot, summarizer) with Flask and Google Cloud Vertex AI, integrating RAG workflows and prompt engineering to evaluate LLMs and finalize Google Gemini models (by evaluating their performance).Built a Generative AI pipeline that transforms text into context aware diagrams using CoT prompting and LLM generated Mermaid code, dynamically rendered with Mermaid.js. Collaborated with the production team to refine and enhance the UI on Replit for improved user experience.",
       location: "On-site (Bangalore)",
     },
     {
       company: "Project for Education Department-Government of Gujarat",
       role: "Team Lead, Developer",
-      period: "January 2024 - Ongoing",
-      description: "Developed multilingual chatbot using LangChain, Open LLM with Tesseract OCR document processing, built cross-platform solution (React web app + Android) with JWT authentication.",
+      period: "January 2024 - Feb 2025",
+      description: " Led a team to develop Streamlit based multilingual chatbot using RAG with LangChain, FAISS, Groq, vertex ai. Implemented document verification, integrated OCR to enable chat with scanned documents,managed memory efficiently and applied prompt engineering to optimize pipelines for multilingual query resolution.",
       location: "Remote",
     },
     {
       company: "iShape Technolab Pvt. Ltd.",
       role: "Web Development Intern",
       period: "June 2024 - July 2024",
-      description: "Developed a real-time chat application with PHP, featuring user-friendly design, secure authentication, and robust password protection to ensure privacy.",
+      description: " Created a real-time chat app with PHP, AJAX & MySQL featuring secure authentication and privacy.",
       location: "On-site (Ahmedabad)",
     }
   ];
