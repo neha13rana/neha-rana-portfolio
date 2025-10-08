@@ -189,14 +189,14 @@ const Projects = () => {
       image: "https://placehold.co/600x400?text=University+Chatbot",
       github: "https://github.com/neha13rana/University-Chatbot-_NIH-project",
     },
-    {
-      title: "Multimind Chatbot",
-      description: "A chatbot that answers user queries on uploaded PDFs, images, or simple text-based questions. Made with Python, Langchain, and Streamlit, it leverages LLM and prompt engineering.",
-      skills: ["Python", "Langchain", "Streamlit", "Prompt Engineering", "LLM"],
-      image: "https://placehold.co/600x400?text=Multimind+Chatbot",
-      github: "https://github.com/neha13rana/Multimindbot",
-      demo: "https://huggingface.co/spaces/Neha13/Multimindbot",
-    },
+    // {
+    //   title: "Multimind Chatbot",
+    //   description: "A chatbot that answers user queries on uploaded PDFs, images, or simple text-based questions. Made with Python, Langchain, and Streamlit, it leverages LLM and prompt engineering.",
+    //   skills: ["Python", "Langchain", "Streamlit", "Prompt Engineering", "LLM"],
+    //   image: "https://placehold.co/600x400?text=Multimind+Chatbot",
+    //   github: "https://github.com/neha13rana/Multimindbot",
+    //   demo: "https://huggingface.co/spaces/Neha13/Multimindbot",
+    // },
     {
       title: "Cloth Recommendation System",
       description: "Built a cloth recommendation system using content filtering, generating tags with Word2Vec, optimizing with sparse cosine similarity, and creating a practical matrix with reduced latent overhead.",
@@ -256,6 +256,14 @@ const Projects = () => {
       skills: ["Python", "OCR (Tesseract)","YOLO Object Detection","OpenCV","Image Processing and Annotation", "Data Structuring and JSON Handling"],
       image: "https://placehold.co/600x400?text=Document+Processing+System",
       github: "https://github.com/neha13rana/Document-Processing-System",
+      // demo: "https://huggingface.co/spaces/Neha13/Multimindbot",
+    },
+    {
+      title: "Live Chat Application",
+      description: "A real-time chat application that allows users to connect, communicate, and keep track of their chat history. Built with PHP, MySQL, JavaScript, and CSS, this project offers a seamless and responsive user experience for live communication.",
+      skills: ["Php" ,"Css" , "MySQL" , "Javascript"],
+      image: "https://placehold.co/600x400?text=Live+Chat+Application",
+      github: "https://github.com/neha13rana/ChatApp",
       // demo: "https://huggingface.co/spaces/Neha13/Multimindbot",
     },
   ];
