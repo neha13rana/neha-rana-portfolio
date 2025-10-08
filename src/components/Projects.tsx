@@ -227,7 +227,6 @@ const Projects = () => {
       image: "https://placehold.co/600x400?text=Parser+Application",
       github: "https://github.com/neha13rana/Parser-LL1-SLR1-Application",
       demo: "https://huggingface.co/spaces/Neha13/cc1",
-      demo: "https://huggingface.co/spaces/Neha13/CC",
     },
     {
       title: "Stereotypical Bias Analyzer",

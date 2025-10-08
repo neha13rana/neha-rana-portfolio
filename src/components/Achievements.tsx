@@ -37,9 +37,6 @@ const Achievements = () => {
       link: "https://codeforces.com/profile/Neha.Rana"
     },
     {
-      
-    },
-    {
       icon: Medal,
       title: "SSIP New India Vibrant Hackathon'23 Finalist",
       description: "Selected among top teams nationwide",
