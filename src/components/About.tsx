@@ -63,6 +63,7 @@ const About = () => {
                   <p className="text-gray-600">Google Cloud Facilitator ’25</p>
                   <p className="text-gray-600">Y Combinator Startup School ’25</p>
                   <p className="text-gray-600">Top 1% Class XII Board Examination'21 (Qualified for INSPIRE Scholarship (SHE), Govt. of India)</p>
+                  <p className="text-gray-600"> ICPC Asia Kanpur Preliminary 2024- Participant</p>
                   
                 </div>
               </CardContent>
