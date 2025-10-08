@@ -266,6 +266,14 @@ const Projects = () => {
       github: "https://github.com/neha13rana/ChatApp",
       // demo: "https://huggingface.co/spaces/Neha13/Multimindbot",
     },
+    {
+      title: "Gujarati to English Translator",
+      description: "A web-based application built using Streamlit that transliterates English text to Gujarati script and translates Gujarati text into English using AI4Bharat's pre-trained models.",
+      skills: ["Python" ,"Natural Language Processing (NLP)" , "Transformers & Seq2Seq Models" , "Indic Language Processing" ,"PyTorch" ,"Streamlit"],
+      image: "https://placehold.co/600x400?text=Guj+- Eng +Translator",
+      github: "https://github.com/neha13rana/Guj-Eng-Translator-",
+      // demo: "https://huggingface.co/spaces/Neha13/Multimindbot",
+    },
   ];
 
   return (
