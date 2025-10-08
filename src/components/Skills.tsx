@@ -9,32 +9,37 @@ const Skills = () => {
     {
       title: "Languages",
       icon: <Code className="text-portfolio-purple" />,
-      skills: ["Python", "C", "C++", "JavaScript", "SQL", "HTML", "CSS"]
+      skills: ["Python", "C", "C++", "JavaScript", "SQL", "HTML", "CSS", "Java" , "React", "Typescript"]
     },
     {
-      title: "Technologies",
+      title: "Tools & Technologies",
       icon: <Server className="text-portfolio-purple" />,
-      skills: ["Machine Learning", "Generative AI", "NLP", "Deep Learning" , "LLM"]
+      skills: ["Google Cloud Platform", "Machine Learning", "Deep Learning (PyTorch, TensorFlow)", "Prompt Engineering", "NLP (Transformers, RAG, Conversational AI)", "Data Mining"]
     },
     {
       title: "Frameworks",
       icon: <Database className="text-portfolio-purple" />,
-      skills: ["Langchain", "Keras", "PyTorch", "Django", "Flask", "Streamlit"]
+      skills: ["Langchain", "Keras", "PyTorch", "Django", "Flask", "Streamlit", "Huggingface" , "Numpy" , "Pandas" , "Matplotlib"]
     },
     {
-      title: "Tools",
+      title: "Developer Tools & Databases",
       icon: <Wrench className="text-portfolio-purple" />,
-      skills: ["Git", "MongoDB", "Cassandra", "MySQL"]
+      skills: ["MySQL", "MongoDB" , "Cassandra", "Git", "GitHub", "Linux/Unix", "Postman", "Jupyter", "Google Colab", "LaTeX", "Kaggle", "Testing Tools (JUnit, Pytest)", "VectorDB(chroma, faiss, milvus)"]
+    },
+    {
+    title: "AI Tools",
+    icon: <Sparkles className="text-portfolio-purple" />,
+    skills: ["ChatGPT", "Google Gemini", "GitHub Copilot", "Replit", "Lovable", "n8n", "Canva", "Notion AI", "Perplexity AI", "Claude" ,"Gamma", "Notebooklm" ,"Firebase Studio"]
     },
     {
       title: "Soft Skills",
       icon: <Users className="text-portfolio-purple" />,
-      skills: ["Problem Solving", "Leadership", "Communication", "Networking", "Creativity", "Team Management"]
+      skills: ["Problem Solving", "Leadership", "Communication", "Creativity", "Team Management" ,"Adaptability", "Teamwork", "Critical Thinking", "Organizational Skills", "Active Learning"]
     },
     {
       title: "Course Work",
       icon: <Brain className="text-portfolio-purple" />,
-      skills: ["DSA", "DBMS", "Computer Networks", "OOP", "OS", "Software Engineering", "Data Mining", "Cryptographic Algorithms", "Software Testing and Quality Assurance"]
+      skills: ["Data structures and algorithms", "Data base management systems", "System Design" , "Computer networks", "OOP", "OS", "Software Engineering", "Data Mining", "Cryptographic Algorithms", "Software Testing and Quality Assurance"]
     }
   ];
 
