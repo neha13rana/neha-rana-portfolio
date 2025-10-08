@@ -2,7 +2,7 @@
 import React from 'react';
 import { Badge } from '@/components/ui/badge';
 import { Card, CardContent } from '@/components/ui/card';
-import { Code, Server, Database, Brain, Wrench, Users } from 'lucide-react';
+import { Code, Server, Database, Brain, Wrench, Users, Sparkles } from 'lucide-react';
 
 const Skills = () => {
   const skillCategories = [
