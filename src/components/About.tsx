@@ -44,10 +44,10 @@ const About = () => {
                 </div>
                 <div>
                   <h3 className="font-bold text-lg mb-1">Experience</h3>
-                  <p className="text-gray-600">AI Developer Intern at REConnect Energy Solutions</p>
-                  <p className="text-gray-600">Web Developer Intern at iShape Technolab</p>
-                  <p className="text-gray-600">Team Lead, Developer for the project of Student Counselling Chatbot (For the education department-Government of Gujarat)</p>
-                  <p className="text-gray-600">Open-Source Contributor — Hugging Face</p>
+                  <p className="text-gray-600">- AI Developer Intern at REConnect Energy Solutions</p>
+                  <p className="text-gray-600">- Web Developer Intern at iShape Technolab</p>
+                  <p className="text-gray-600">- Team Lead, Developer for the project of Student Counselling Chatbot (For the education department-Government of Gujarat)</p>
+                  <p className="text-gray-600">- Open-Source Contributor — Hugging Face</p>
 
                 </div>
               </CardContent>
@@ -60,13 +60,13 @@ const About = () => {
                 </div>
                 <div>
                   <h3 className="font-bold text-lg mb-1">Achievements</h3>
-                  <p className="text-gray-600">Codeforces Highest rank 2705 in Div2</p>
-                  <p className="text-gray-600">Finalist in SSIP New India Vibrant Hackathon'23</p>
-                  <p className="text-gray-600">McKinsey Forward Program ’25</p>
-                  <p className="text-gray-600">Google Cloud Facilitator ’25</p>
-                  <p className="text-gray-600">Y Combinator Startup School ’25</p>
-                  <p className="text-gray-600">Top 1% Class XII Board Examination'21 (Qualified for INSPIRE Scholarship (SHE), Govt. of India)</p>
-                  <p className="text-gray-600"> ICPC Asia Kanpur Preliminary 2024- Participant</p>
+                  <p className="text-gray-600">- Codeforces Highest rank 2705 in Div2</p>
+                  <p className="text-gray-600">- Finalist in SSIP New India Vibrant Hackathon'23</p>
+                  <p className="text-gray-600">- McKinsey Forward Program ’25</p>
+                  <p className="text-gray-600">- Google Cloud Facilitator ’25</p>
+                  <p className="text-gray-600">- Y Combinator Startup School ’25</p>
+                  <p className="text-gray-600">- Top 1% Class XII Board Examination'21 (Qualified for INSPIRE Scholarship (SHE), Govt. of India)</p>
+                  <p className="text-gray-600">- ICPC Asia Kanpur Preliminary 2024- Participant</p>
                   
                 </div>
               </CardContent>
