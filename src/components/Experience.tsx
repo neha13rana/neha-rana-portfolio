@@ -25,7 +25,15 @@ const Experience = () => {
       period: "January 2024 - Feb 2025",
       description: " Led a team to develop Streamlit based multilingual chatbot using RAG with LangChain, FAISS, Groq, vertex ai. Implemented document verification, integrated OCR to enable chat with scanned documents,managed memory efficiently and applied prompt engineering to optimize pipelines for multilingual query resolution.",
       location: "Remote",
-    },
+    },    
+    {
+      company: "Huggingface",
+      role: "Open-Source AI Contributor",
+      period: "2024 - Present",
+      description: "Conceptualized, developed, and deployed multiple AI applications and models on Hugging Face Spaces, including: Gujarati Translator – Transformer-based multilingual translation system. AI Content Detector – Text classification model for detecting AI-generated content. MultimindBot and DocchatBOT – Conversational AI solutions for document-based question answering. Curated, structured, and published datasets such as Chatbot_Nirma_Dataset and Bias Identification to support NLP tasks and model training. Utilized Transformers, Fairseq, and PyTorch for model development, fine-tuning, and inference.
+      Maintains a public profile showcasing all projects: huggingface.co/Neha13",
+      location: "",
+    }
     {
       company: "iShape Technolab Pvt. Ltd.",
       role: "Web Development Intern",
