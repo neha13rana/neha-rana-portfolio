@@ -215,7 +215,7 @@ const Projects = () => {
     {
       title: "Student Counselling Chatbot",
       description: "A chatbot designed to assist students with counselling needs and academic guidance.",
-      skills: ["Python", "NLP", "Machine Learning", "Chatbot"],
+      skills: ["Python", "NLP", "Machine Learning", "Chatbot", "MERN"],
       image: "https://placehold.co/600x400?text=Student+Counselling",
       github: "https://github.com/neha13rana/Student_Counselling_Chatbot",
       demo: "https://huggingface.co/spaces/Neha13/Student_Counselling_Bot",
