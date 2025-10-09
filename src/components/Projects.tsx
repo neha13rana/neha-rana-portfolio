@@ -205,6 +205,14 @@ const Projects = () => {
       github: "https://github.com/neha13rana/multilingual-faq-management-system-with-django",
     },
     {
+      title: "Neha Rana - Portfolio",
+      description: "A modern, responsive, and beautifully designed personal portfolio to showcase my skills, projects, and experience.",
+      skills: [ "React", "TypeScript", "Vite", "Tailwind CSS", "shadcn/ui", "Node.js", "GitHub", "Lovable", "Frontend Development", "Web Deployment"],
+      image: "https://placehold.co/600x400?text=Personal+Portfolio",
+      github: "https://github.com/neha13rana/neha-rana-portfolio",
+      demo: "https://neha-rana-portfolio.lovable.app/",
+    },
+    {
       title: "Document Processing System",
       description: "The Document Processing System is a Python-based project designed to process PDF documents by detecting layout elements, extracting text, and generating structured outputs. It is tailored for use cases such as invoice processing, research paper analysis, and document digitization.",
       skills: ["Python", "OCR (Tesseract)","YOLO Object Detection","OpenCV","Image Processing and Annotation", "Data Structuring and JSON Handling"],
@@ -274,7 +282,8 @@ const Projects = () => {
       image: "https://placehold.co/600x400?text=Guj+- Eng +Translator",
       github: "https://github.com/neha13rana/Guj-Eng-Translator-",
       // demo: "https://huggingface.co/spaces/Neha13/Multimindbot",
-    },
+    }
+    
   ];
 
   return (
