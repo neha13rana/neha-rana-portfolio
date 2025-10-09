@@ -32,7 +32,7 @@ const Experience = () => {
       period: "2024 - Present",
       description: "Conceptualized, developed, and deployed multiple AI applications and models on Hugging Face Spaces, including: Gujarati Translator – Transformer-based multilingual translation system. AI Content Detector – Text classification model for detecting AI-generated content. MultimindBot and DocchatBOT – Conversational AI solutions for document-based question answering. Curated, structured, and published datasets such as Chatbot_Nirma_Dataset and Bias Identification to support NLP tasks and model training. Utilized Transformers, Fairseq, and PyTorch for model development, fine-tuning, and inference. Maintains a public profile showcasing all projects: huggingface.co/Neha13",
       location: "Remote",
-    }
+    },
     {
       company: "iShape Technolab Pvt. Ltd.",
       role: "Web Development Intern",
