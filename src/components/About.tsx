@@ -15,7 +15,7 @@ const About = () => {
               I am Neha Rana, a Computer Science and Engineering graduate from the Institute of Technology, Nirma University, with the expertise in AI/ML, software development and problem-solving. I aim to leverage technology and innovation to build impactful, efficient, and scalable solutions for real-world challenges.
             </p>
             <p className="text-gray-700 mb-6">
-              Recently, I completed my internship at REConnect Energy, where I worked as an AI Intern. My role involved developing AI tools tailored for the Energy and Power Sector of India.
+              Recently, I completed my internship at REConnect Energy, where I worked as an AI Intern. My role involved developing AI tools tailored for the Energy and Power Sector of India.Open-source AI contributor on Hugging Face, building datasets, training NLP models, and deploying multilingual translation and conversational AI solutions. Passionate about leveraging Generative AI tools to create impactful applications.
             </p>
             <p className="text-gray-700 mb-6">
               Throughout my academic and professional journey, I have actively participated in hackathons, coding competitions, and collaborative projects, strengthening both my technical and leadership abilities. Notably, I was a finalist in the SSIP New India Vibrant Hackathon 2023 and my project was selected by the Education Department, Government of Gujarat for integration with their official website.With strong technical skills and creative problem-solving, I specialize in using AI tools and frameworks to design and develop innovative solutions.
