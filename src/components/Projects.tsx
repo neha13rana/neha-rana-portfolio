@@ -183,6 +183,36 @@ const Projects = () => {
 
   const projects = [
     {
+      title: "Cloth Recommendation System",
+      description: "Built a cloth recommendation system using content filtering, generating tags with Word2Vec, optimizing with sparse cosine similarity, and creating a practical matrix with reduced latent overhead.",
+      skills: ["Data mining", "Recommender Systems", "NLP", "ML"],
+      image: "https://placehold.co/600x400?text=Recommender+System",
+      github: "https://github.com/neha13rana/Cloth-Recommendation-System",
+    },
+    {
+      title: "Student Counselling Chatbot",
+      description: "A chatbot designed to assist students with counselling needs and academic guidance.",
+      skills: ["Python", "NLP", "Machine Learning", "Chatbot", "MERN"],
+      image: "https://placehold.co/600x400?text=Student+Counselling",
+      github: "https://github.com/neha13rana/Student_Counselling_Chatbot",
+      demo: "https://huggingface.co/spaces/Neha13/Student_Counselling_Bot",
+    },
+    {
+      title: "Multilingual FAQ Management System with Django",
+      description: "This project provides a robust solution for managing FAQs in multiple languages with a user-friendly interface. It includes advanced features such as WYSIWYG editor support, API endpoints for multilingual operations, caching for improved performance, and a well-documented workflow for deployment and testing.",
+      skills: ["Python", "Django", "REST API Development", "Redis Caching", "Google Translate API Integration", "Unit Testing (pytest)","Version Control with Git"],
+      image: "https://placehold.co/600x400?text=FAQ+Management+System",
+      github: "https://github.com/neha13rana/multilingual-faq-management-system-with-django",
+    },
+    {
+      title: "Document Processing System",
+      description: "The Document Processing System is a Python-based project designed to process PDF documents by detecting layout elements, extracting text, and generating structured outputs. It is tailored for use cases such as invoice processing, research paper analysis, and document digitization.",
+      skills: ["Python", "OCR (Tesseract)","YOLO Object Detection","OpenCV","Image Processing and Annotation", "Data Structuring and JSON Handling"],
+      image: "https://placehold.co/600x400?text=Document+Processing+System",
+      github: "https://github.com/neha13rana/Document-Processing-System",
+      // demo: "https://huggingface.co/spaces/Neha13/Multimindbot",
+    },
+    {
       title: "University Chatbot System",
       description: "A chatbot that resolves student queries related to Nirma University. Made with Django and NLP, it includes an authentication system for safe login and signup with email confirmation.",
       skills: ["Python", "Django", "Web Development", "NLP", "Authentication"],
@@ -197,13 +227,7 @@ const Projects = () => {
     //   github: "https://github.com/neha13rana/Multimindbot",
     //   demo: "https://huggingface.co/spaces/Neha13/Multimindbot",
     // },
-    {
-      title: "Cloth Recommendation System",
-      description: "Built a cloth recommendation system using content filtering, generating tags with Word2Vec, optimizing with sparse cosine similarity, and creating a practical matrix with reduced latent overhead.",
-      skills: ["Data mining", "Recommender Systems", "NLP", "ML"],
-      image: "https://placehold.co/600x400?text=Recommender+System",
-      github: "https://github.com/neha13rana/Cloth-Recommendation-System",
-    },
+
     {
       title: "AI Content Detector",
       description: "A tool to detect AI content in text using Streamlit, NLP, and Machine Learning. 95% accuracy was achieved using CountVectorizer, TFIDF-Transformer, and multinomial Naive Bayes.",
@@ -211,14 +235,6 @@ const Projects = () => {
       image: "https://placehold.co/600x400?text=AI+Content+Detector",
       github: "https://github.com/neha13rana/AI-Content-Detector",
       demo: "https://huggingface.co/spaces/Neha13/AI_Content_Detector",
-    },
-    {
-      title: "Student Counselling Chatbot",
-      description: "A chatbot designed to assist students with counselling needs and academic guidance.",
-      skills: ["Python", "NLP", "Machine Learning", "Chatbot", "MERN"],
-      image: "https://placehold.co/600x400?text=Student+Counselling",
-      github: "https://github.com/neha13rana/Student_Counselling_Chatbot",
-      demo: "https://huggingface.co/spaces/Neha13/Student_Counselling_Bot",
     },
     {
       title: "LL1, SLR1 - Parser Application",
@@ -242,21 +258,7 @@ const Projects = () => {
       image: "https://placehold.co/600x400?text=Feedback+Processor",
       github: "https://github.com/neha13rana/feedback-processor",
     },
-    {
-      title: "Multilingual FAQ Management System with Django",
-      description: "This project provides a robust solution for managing FAQs in multiple languages with a user-friendly interface. It includes advanced features such as WYSIWYG editor support, API endpoints for multilingual operations, caching for improved performance, and a well-documented workflow for deployment and testing.",
-      skills: ["Python", "Django", "REST API Development", "Redis Caching", "Google Translate API Integration", "Unit Testing (pytest)","Version Control with Git"],
-      image: "https://placehold.co/600x400?text=FAQ+Management+System",
-      github: "https://github.com/neha13rana/multilingual-faq-management-system-with-django",
-    },
-    {
-      title: "Document Processing System",
-      description: "The Document Processing System is a Python-based project designed to process PDF documents by detecting layout elements, extracting text, and generating structured outputs. It is tailored for use cases such as invoice processing, research paper analysis, and document digitization.",
-      skills: ["Python", "OCR (Tesseract)","YOLO Object Detection","OpenCV","Image Processing and Annotation", "Data Structuring and JSON Handling"],
-      image: "https://placehold.co/600x400?text=Document+Processing+System",
-      github: "https://github.com/neha13rana/Document-Processing-System",
-      // demo: "https://huggingface.co/spaces/Neha13/Multimindbot",
-    },
+
     {
       title: "Live Chat Application",
       description: "A real-time chat application that allows users to connect, communicate, and keep track of their chat history. Built with PHP, MySQL, JavaScript, and CSS, this project offers a seamless and responsive user experience for live communication.",
