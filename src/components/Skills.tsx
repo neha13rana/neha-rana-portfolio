@@ -19,7 +19,7 @@ const Skills = () => {
     {
       title: "Frameworks",
       icon: <Database className="text-portfolio-purple" />,
-      skills: ["Langchain", "Keras", "PyTorch", "Django", "Flask", "Streamlit", "Huggingface" , "Numpy" , "Pandas" , "Matplotlib"]
+      skills: ["MERN Stack","Langchain", "Keras", "PyTorch", "Django", "Flask", "Streamlit", "Huggingface" , "Numpy" , "Pandas" , "Matplotlib"]
     },
     {
       title: "Developer Tools & Databases",
