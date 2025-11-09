@@ -9,12 +9,12 @@ const Skills = () => {
     {
       title: "Languages",
       icon: <Code className="text-portfolio-purple" />,
-      skills: ["Python", "C", "C++", "JavaScript", "SQL", "HTML", "CSS", "Java" , "React", "Typescript"]
+      skills: ["Python", "C", "C++", "JavaScript", "SQL", "HTML", "CSS", "Java" , "React", "Typescript", "Next.js"]
     },
     {
       title: "Tools & Technologies",
       icon: <Server className="text-portfolio-purple" />,
-      skills: ["Google Cloud Platform", "Machine Learning", "Deep Learning (PyTorch, TensorFlow)", "Prompt Engineering", "NLP (Transformers, RAG, Conversational AI)", "Data Mining"]
+      skills: ["Google Cloud Platform", "Machine Learning", "Deep Learning (PyTorch, TensorFlow)", "Prompt Engineering", "NLP (Transformers, RAG, Conversational AI)", "Data Mining", "AWS"]
     },
     {
       title: "Frameworks",
@@ -24,7 +24,7 @@ const Skills = () => {
     {
       title: "Developer Tools & Databases",
       icon: <Wrench className="text-portfolio-purple" />,
-      skills: ["MySQL", "MongoDB" , "Cassandra", "Git", "GitHub", "Linux/Unix", "Postman", "Jupyter", "Google Colab", "LaTeX", "Kaggle", "Testing Tools (JUnit, Pytest)", "VectorDB(chroma, faiss, milvus)"]
+      skills: ["MySQL", "MongoDB" , "Cassandra", "PostgreSQL", "Git", "GitHub", "Linux/Unix", "Postman", "Jupyter", "Google Colab", "LaTeX", "Kaggle", "Testing Tools (JUnit, Pytest)", "VectorDB(chroma, faiss, milvus)"]
     },
     {
     title: "AI Tools",
