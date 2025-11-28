@@ -45,6 +45,7 @@ const About = () => {
                 </div>
                 <div>
                   <h3 className="font-bold text-lg mb-1">Experience</h3>
+                  <p className="text-gray-600">- CTO at Aethenix</p>
                   <p className="text-gray-600">- AI Developer Intern at REConnect Energy Solutions</p>
                   <p className="text-gray-600">- Web Developer Intern at iShape Technolab</p>
                   <p className="text-gray-600">- Team Lead, Developer for the project of Student Counselling Chatbot (For the education department-Government of Gujarat)</p>
