@@ -13,6 +13,12 @@ import { Briefcase, Calendar } from 'lucide-react';
 const Experience = () => {
   const experiences = [
     {
+      company: "Aethenix",
+      role: "CTO",
+      period: "OCT 2025 - Present",
+      description: "Leading the end-to-end technology landscape and service delivery. Responsible for aligning technical strategy with business growth, overseeing client engagements from concept to deployment, and managing the engineering team. Driving the organization's roadmap by bridging the gap between complex technical solutions and market opportunities.",
+    },
+    {
       company: "Reconnect Energy Solutions Limited",
       role: "AI Intern",
       period: "January 2025 - May 2025",
