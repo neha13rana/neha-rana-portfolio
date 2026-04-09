@@ -1,0 +1,177 @@
+import React, { useState } from 'react';
+import { Button } from '@/components/ui/button';
+import { Card, CardContent } from '@/components/ui/card';
+import { Input } from '@/components/ui/input';
+import { Textarea } from '@/components/ui/textarea';
+import { Mail, Phone, MapPin, Send, CheckCircle2, AlertCircle } from 'lucide-react';
+
+const ContactInfo = ({ icon: Icon, title, content }) => (
+  <div className="flex items-center gap-4 mb-6">
+    <div className="bg-portfolio-purple/10 p-3 rounded-full">
+      <Icon className="text-portfolio-purple" size={20} />
+    </div>
+    <div>
+      <h4 className="font-medium text-gray-600">{title}</h4>
+      <p className="text-lg">{content}</p>
+    </div>
+  </div>
+);
+
+const Contact = () => {
+  const [status, setStatus] = useState({ submitted: false, submitting: false, info: { error: false, msg: null } });
+
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    setStatus({ submitted: false, submitting: true, info: { error: false, msg: null } });
+    const formData = new FormData(event.target);
+
+    // We use an environment variable so your key isn't stored directly in the Github code!
+    const accessKey = import.meta.env.VITE_WEB3FORMS_KEY || "YOUR_ACCESS_KEY_HERE";
+    formData.append("access_key", accessKey);
+
+    try {
+      const response = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        body: formData
+      });
+
+      const data = await response.json();
+
+      if (data.success) {
+        setStatus({
+          submitted: true,
+          submitting: false,
+          info: { error: false, msg: "Message sent successfully! I will get back to you soon." }
+        });
+        event.target.reset();
+      } else {
+        setStatus({
+          submitted: false,
+          submitting: false,
+          info: { error: true, msg: data.message || "Something went wrong. Please try again." }
+        });
+      }
+    } catch (err) {
+      setStatus({
+        submitted: false,
+        submitting: false,
+        info: { error: true, msg: "Unable to send message. Please check your internet connection." }
+      });
+    }
+  };
+
+  return (
+    <section id="contact" className="py-20">
+      <div className="section-container">
+        <h2 className="section-title">Get In Touch</h2>
+        
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mt-10">
+          <div className="animate-fade-in-up">
+            <h3 className="text-2xl font-bold mb-6">Contact Information</h3>
+            
+            <ContactInfo 
+              icon={Mail} 
+              title="Email" 
+              content="rananeha572@gmail.com" 
+            />
+            
+            <ContactInfo 
+              icon={Phone} 
+              title="Phone" 
+              content="+91 9638235150" 
+            />
+            
+            <ContactInfo 
+              icon={MapPin} 
+              title="Location" 
+              content="Ahmedabad, Gujarat, India" 
+            />
+            
+            <div className="mt-10">
+              <h4 className="font-medium text-gray-600 mb-4">Connect With Me</h4>
+              <div className="flex gap-4">
+                <a 
+                  href="https://www.linkedin.com/in/neha-rana-ba9212248/" 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-[#0077B5] text-white p-3 rounded-full hover:bg-[#0077B5]/90 transition-colors"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect width="4" height="12" x="2" y="9"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                </a>
+                <a 
+                  href="https://github.com/neha13rana"
+                  target="_blank"
+                  rel="noopener noreferrer" 
+                  className="bg-[#333] text-white p-3 rounded-full hover:bg-[#333]/90 transition-colors"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path><path d="M9 18c-4.51 2-5-2-7-2"></path></svg>
+                </a>
+                <a 
+                  href="mailto:rananeha572@gmail.com" 
+                  className="bg-[#EA4335] text-white p-3 rounded-full hover:bg-[#EA4335]/90 transition-colors"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          
+          <Card className="animate-fade-in-up" style={{animationDelay: '0.2s'}}>
+            <CardContent className="p-6">
+              <h3 className="text-2xl font-bold mb-6">Send Me a Message</h3>
+              
+              <form onSubmit={onSubmit} className="space-y-4">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                  <div>
+                    <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1">Name</label>
+                    <Input id="name" name="name" required placeholder="Your Name" />
+                  </div>
+                  <div>
+                    <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1">Email</label>
+                    <Input id="email" name="email" type="email" required placeholder="Your Email" />
+                  </div>
+                </div>
+                
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                  <div>
+                    <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-1">Phone Number</label>
+                    <Input id="phone" name="phone" type="tel" placeholder="Your Phone Number" />
+                  </div>
+                  <div>
+                    <label htmlFor="subject" className="block text-sm font-medium text-gray-700 mb-1">Subject</label>
+                    <Input id="subject" name="subject" required placeholder="Subject" />
+                  </div>
+                </div>
+                
+                <div>
+                  <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-1">Message</label>
+                  <Textarea id="message" name="message" required placeholder="Your message here..." rows={4} />
+                </div>
+                
+                <Button type="submit" disabled={status.submitting} className={`w-full ${status.submitting ? 'bg-gray-400' : 'bg-portfolio-lightPurple hover:bg-portfolio-purple'}`}>
+                  {status.submitting ? (
+                    <span>Sending...</span>
+                  ) : (
+                    <>
+                      <Send className="mr-2" size={18} />
+                      Send Message
+                    </>
+                  )}
+                </Button>
+                
+                {status.info.msg && (
+                  <div className={`mt-4 p-3 rounded-md flex items-center gap-2 ${status.info.error ? 'bg-red-50 text-red-600' : 'bg-green-50 text-green-600'}`}>
+                    {status.info.error ? <AlertCircle size={18} /> : <CheckCircle2 size={18} />}
+                    <span className="text-sm font-medium">{status.info.msg}</span>
+                  </div>
+                )}
+              </form>
+            </CardContent>
+          </Card>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Contact;
