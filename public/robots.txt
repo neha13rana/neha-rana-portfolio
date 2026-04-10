@@ -12,3 +12,5 @@ Allow: /
 
 User-agent: *
 Allow: /
+
+Sitemap: https://neha-rana-portfolio.vercel.app/sitemap.xml
