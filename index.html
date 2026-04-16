@@ -3,6 +3,7 @@
   <head>
     <script type="module">
       const GA_ID = import.meta.env.VITE_GA_ID;
+      const GSC_CODE = import.meta.env.VITE_GSC_VERIFICATION;
 
       // Load GA script
       const script = document.createElement("script");
@@ -17,6 +18,11 @@
 
       gtag('js', new Date());
       gtag('config', GA_ID);
+        // ✅ Inject Search Console verification meta
+      const meta = document.createElement("meta");
+      meta.name = "google-site-verification";
+      meta.content = GSC_CODE;
+      document.head.appendChild(meta);
     </script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
