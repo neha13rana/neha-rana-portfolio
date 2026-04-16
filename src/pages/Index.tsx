@@ -20,7 +20,7 @@ const Index = () => {
       <TopmateSection />
       {/* <Skills /> */}
       <Experience />
-      <Projects />
+      <Personal Projects />
       <Achievements />
       <Contact />
       <Footer />
