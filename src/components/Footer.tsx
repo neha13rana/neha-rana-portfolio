@@ -32,7 +32,7 @@ const Footer = () => {
           <div className="flex flex-wrap justify-center gap-6">
             <a href="#home" onClick={(e) => handleScrollTo(e, 'home')} className="hover:text-portfolio-lightPurple transition-colors">Home</a>
             <a href="#about" onClick={(e) => handleScrollTo(e, 'about')} className="hover:text-portfolio-lightPurple transition-colors">About</a>
-            <a href="#skills" onClick={(e) => handleScrollTo(e, 'skills')} className="hover:text-portfolio-lightPurple transition-colors">Skills</a>
+            {/* <a href="#skills" onClick={(e) => handleScrollTo(e, 'skills')} className="hover:text-portfolio-lightPurple transition-colors">Skills</a> */}
             <a href="#experience" onClick={(e) => handleScrollTo(e, 'experience')} className="hover:text-portfolio-lightPurple transition-colors">Experience</a>
             <a href="#projects" onClick={(e) => handleScrollTo(e, 'projects')} className="hover:text-portfolio-lightPurple transition-colors">Projects</a>
             <a href="#achievements" onClick={(e) => handleScrollTo(e, 'achievements')} className="hover:text-portfolio-lightPurple transition-colors">Achievements</a>
